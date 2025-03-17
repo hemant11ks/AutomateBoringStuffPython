@@ -37,4 +37,19 @@
 # # ['dog', 'bat', 'elephant']
 
 
+# common list methods
+
+# Lists are also objects in Python, and thus have methods that we can invoke on them. Here are a few that may be particularly useful (run help(list) in the python interpreter to see the full set):
+# list method 	result
+# append(item) 	add item to end of list
+# extend(L1) 	add list L1 to original list
+# sort() 	sort the list
+# reverse() 	reverse the list
+# count(item) 	return number of occurrences of item in list
+# index(item) 	return index of first occurrence of item
+# pop(index) 	remove and return item at index
+
+
+
+
 
