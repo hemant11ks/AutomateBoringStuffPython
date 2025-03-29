@@ -49,6 +49,71 @@
 # index(item) 	return index of first occurrence of item
 # pop(index) 	remove and return item at index
 
+# print('Hello' * 3)
+# print([1,2,3] + [4,5,6])
+# print([1,2,3] * 3)
+# print(list('Hello'))
+
+# HelloHelloHello
+# [1, 2, 3, 4, 5, 6]
+# [1, 2, 3, 1, 2, 3, 1, 2, 3]
+# ['H', 'e', 'l', 'l', 'o']
+
+# var1 = 'hemant' in ['hemant', 'kumar', 'singh']
+# print(var1) # True
+
+# var2 = 'hemant' not in ['hemant', 'kumar', 'singh']
+# print(var2) # False
+
+# For loops with list, multiple assignment, and the Augmented Assignment operators
+
+# print(range(4))
+# print(list(range(4))) # [0,1,2,3]
+
+# for i in range(4):
+#     print(i)
+
+# for i in [0,1,2,3]:
+#     print(i)
+
+# bucket = ['apples', 'oranges', 'cats', 'dogs']
+
+# for i in range(len(bucket)):
+#     print('Bucket ' + str(i) + ' is ' + bucket[i])
+
+# Multiple Assignment
+# cat = ['fat', 'orange', 'loud']
+# size, color, disposition = cat
+# print(size)
+# print(color)
+# print(disposition)
+# fat
+# orange
+# loud
+
+# size, color, disposition = 'fat', 'orange', 'loud'
+# print(size)
+# print(color)
+# print(disposition)  
+
+# Swapping variables
+# a = 'AAA'
+# b = 'BBB'
+# a, b = b, a
+# print(a)
+
+#  BBB
+# Augumented Assignment
+# spam = 42
+# spam = spam + 1
+
+# spam += 1
+
+
+
+
+
+
 
 
 
